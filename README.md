@@ -1,5 +1,6 @@
 # Pygame screen recorder util for making gifs out of pygame-based simulations
-___
+
+<img src="test.gif"/>
 ## How to Use
 ### Install
 ```
