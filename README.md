@@ -1,5 +1,6 @@
-# Pygame screen recorder util for making gifs out of pygame-based simulations
-___
+# Pygame Screen Recorder Util 
+*Designed specifically for making gifs out of pygame-based simulations*
+
 ## How to Use
 ### Install
 ```
