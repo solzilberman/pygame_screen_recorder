@@ -9,10 +9,10 @@ classifiers = [
  
 setup(
   name='pygame_screen_recorder',
-  version='1.0',
+  version='1.3',
   description='Util for taking screenshots and recording videos of pygame simulations.',
-  long_description=open('README.md').read(),
-  url='',  
+  long_description="See the full documentation on github.",
+  url='https://github.com/solzilberman/pygame_screen_recorder',  
   author='Sol Zilberman',
   author_email='sol.zilberman@gmail.com',
   license='MIT', 
@@ -21,3 +21,4 @@ setup(
   packages=find_packages(),
   install_requires=['pygame', 'imageio'] 
 )
+

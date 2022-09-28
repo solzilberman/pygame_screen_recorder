@@ -7,7 +7,6 @@ class pygame_screen_recorder:
     def __init__(self, outfile):
         self.outfile = outfile
         self.file_count = 0
-        # make a temp folder with a uuid
         self.temp_folder = f'.__temp_gif{random.randint(0, 1000000)}'
         os.mkdir(self.temp_folder)
 
@@ -26,7 +25,6 @@ class pygame_screen_recorder:
         imageio.mimsave(self.outfile, images)
 
     def __del__(self):
-        # delete all files in temp folder
         files = os.listdir(self.temp_folder)
         for filename in files:
             os.remove(f'./{self.temp_folder}/{filename}')

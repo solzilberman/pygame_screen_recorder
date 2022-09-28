@@ -2,6 +2,7 @@ LISCENSE.txt
 MANIFEST.in
 README.md
 setup.py
+test.py
 pygame_screen_recorder/__init__.py
 pygame_screen_recorder/pygame_screen_recorder.py
 pygame_screen_recorder.egg-info/PKG-INFO
