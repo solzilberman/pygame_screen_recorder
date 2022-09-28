@@ -1,5 +1,6 @@
 # Pygame Screen Recorder Utility
 
+Sample Output `test.gif`:
 
 <img src="test.gif"/>
 
