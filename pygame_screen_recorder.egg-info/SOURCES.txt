@@ -1,0 +1,11 @@
+LISCENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pygame_screen_recorder/__init__.py
+pygame_screen_recorder/pygame_screen_recorder.py
+pygame_screen_recorder.egg-info/PKG-INFO
+pygame_screen_recorder.egg-info/SOURCES.txt
+pygame_screen_recorder.egg-info/dependency_links.txt
+pygame_screen_recorder.egg-info/requires.txt
+pygame_screen_recorder.egg-info/top_level.txt

@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: pygame-screen-recorder
+Version: 1.0
+Summary: Util for taking screenshots and recording videos of pygame simulations.
+Home-page: UNKNOWN
+Author: Sol Zilberman
+Author-email: sol.zilberman@gmail.com
+License: MIT
+Description: # Pygame screen recorder util for making gifs out of pygame-based simulations
+        ___
+        ## How to Use
+        **Quick start:**
+        ```
+        # other imports
+        import pygame_screen_recorder
+        ...
+        # init pygame
+        pygame.init()
+        screen = pygame.display.set_mode((WIDTH, HEIGHT))
+        ...
+        rec = pygame_screen_recorder("<OUTPUT_FILENAME>") # init recorder object
+        ...
+        ## Game loop
+        running = True
+        while running:
+        
+            # draw code
+        
+            rec.click(screen) # save frame as png to _temp_/ folder
+        
+            pygame.display.flip()       
+        
+        rec.save() # compiles temp folder to a .gif at specified location and cleans up
+        pygame.quit()
+        ```
+        
+        ## Requirements 
+        - imageio
+        - pygame
+Keywords: pygame
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
